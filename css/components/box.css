@@ -1,4 +1,4 @@
-#box{
+.box{
     display: inline-block;
     background-color: #3A4042;
     box-shadow: 5px 5px 0 black;
@@ -7,6 +7,6 @@
     font-size: 20px;
 }
 
-#box h1 {
+.box h1 {
     margin-bottom: 28px;
 }
