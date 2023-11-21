@@ -8,3 +8,7 @@
 .section .main-title{
     margin-bottom: 60px;
 }
+
+.section.-projects{
+    background-color: #3A4042;
+}
