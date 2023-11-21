@@ -1,0 +1,24 @@
+.skill-hab{
+   font-family: "Press Start 2P", sans-serif;
+   color: #fff;
+   font-weight: 400;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+
+}
+
+.skill-hab .icon{
+   margin-right: 25px;
+   width: 90px;
+}
+
+.skill-hab .position{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.skill-hab .title{
+   margin-bottom: 10px;
+}
