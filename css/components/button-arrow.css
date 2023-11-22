@@ -6,23 +6,7 @@
     cursor: pointer;
 }
 
-.button-arrow .containt{
-    display: none;
-}
-
-.button-arrow:hover{
-    transform: scale(1.1);
-}
-
-.button-arrow.-left{
-    background-image: url(../../assets/img/ico_css3.png);
-}
-
-.button-arrow.-right{
-    background-image: url(../../assets/img/button-arrow-right.svg);
-}
-
-/* .button-arrow::before{
+.button-arrow::before{
     content: '';
     display: block;
     box-sizing: border-box;
@@ -35,4 +19,20 @@
 
 .button-arrow.-left{
     transform: rotate(180deg) translateX(12px);
+}
+
+.button-arrow .containt{
+    display: none;
+}
+
+.button-arrow:hover{
+    transform: scale(1.1);
+}
+
+/* .button-arrow.-left{
+    background-image: url(../../assets/img/ico_css3.png);
+}
+
+.button-arrow.-right{
+    background-image: url(../../assets/img/button-arrow-right.svg);
 } */
