@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/components/bar.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-box.css">
     <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/main-paragraph.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-subtitles.css">
     <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/skill-hab.css">
     <link rel="stylesheet" href="css/components/wrapper-projects.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
@@ -117,7 +120,7 @@
     </section>
 
     <section class="main-section -projects">
-        <h2 class="main-title -second">Skills</h2>
+        <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-projects">
             <figure class="card-project">
                 <img src="assets/img/logo-firedlabs.svg" alt="Logo da logo-firedlabs"/>
@@ -127,7 +130,7 @@
                 <img src="assets/img/logo-collabcode.png" alt="Logo da logo-firedlabs"/>
             </figure>
 
-            <figure class="card-project -icon3">
+            <figure class="card-project">
                 <img src="assets/img/portfolio.png" alt="Logo da logo-firedlabs"/>
             </figure>
         </div>
@@ -135,9 +138,63 @@
 
     <section class="main-section">
         <h2 class="main-title -second">Sobre</h2>
+        </div>
+
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="containt">Voltar</span></button>
+
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-locaweb.png" alt="Logo da localweb">
+                        </div>
+                    </figure>
+                    
+                    <figure class="node-card">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo -clean">
+                            <img src="assets/img/logo-caelum.png" alt="Logo da Caelum">
+                        </div>
+                    </figure>
+                    
+                    <figure class="node-card">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo -first">
+                            <img src="assets/img/logo-getninjas.png" alt="Logo da getninjas">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo -clean">
+                            <img src="assets/img/logo-caelum.png" alt="Logo da Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo -bgp">
+                            <img src="assets/img/logo-impulso.png" alt="Logo da impulso">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo -first">
+                            <img src="assets/img/logo-collabcode-carossel.png" alt="Logo da CollabCode">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <button class="button-arrow -right"><span class="containt">Avançar</span></button>
+        </section>
+        
         <p class="main-paragraph">
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
     </section>
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>

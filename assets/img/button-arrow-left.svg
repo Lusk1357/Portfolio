@@ -1,0 +1,18 @@
+<svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="button-arrow-left">
+<g id="background" filter="url(#filter0_d_114_49)">
+<rect width="50" height="50" fill="#7C5E99"/>
+</g>
+<path id="Polygon 1" d="M7 24.5L34.75 8.47853V40.5215L7 24.5Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_114_49" x="0" y="0" width="55" height="55" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="5" dy="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_114_49"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_114_49" result="shape"/>
+</filter>
+</defs>
+</svg>
