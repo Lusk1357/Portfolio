@@ -20,12 +20,10 @@ function moveCarousel(amount) {
     const visibleWidth = document.querySelector('.items').clientWidth;
 
     if (pixels > visibleWidth) {
-        // Reposiciona o elemento que está saindo para o início do carrossel
         elements.style.transition = 'transform 0s';
         pixels = -elementWidth + amount;
         elements.style.transform = `translateX(${pixels}px)`;
     } else if (pixels < -elementWidth) {
-        // Reposiciona o elemento que está saindo para o final do carrossel
         elements.style.transition = 'transform 0s';
         pixels = visibleWidth - amount;
         elements.style.transform = `translateX(${pixels}px)`;
