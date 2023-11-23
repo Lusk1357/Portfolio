@@ -11,3 +11,10 @@ button{
     font-family: inherit;
     margin: 0px;
 }
+
+input, textarea{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+}

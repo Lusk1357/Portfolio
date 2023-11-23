@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="css/components/bar.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/form-button.css">
     <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-box.css">
     <link rel="stylesheet" href="css/components/main-button.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-paragraph.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-subtitles.css">
@@ -120,7 +124,7 @@
         </div>
     </section>
 
-    <section class="main-section -projects">
+    <section class="main-section -black">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-projects">
             <figure class="card-project">
@@ -197,11 +201,30 @@
         </p>
     </section>
 
+    <section class="main-section -black">
+        <h2 class="main-title -second">Contatos</h2>
+        <form name="form" class="main-form" method="post">
+
+                <label for="name" class="main-label">Nome:</label>
+                <input type="text" id="name" class="main-input" maxlength="255" required>
+
+                <label for="email" class="main-label">E-mail:</label>
+                <input type="email" id="email" class="main-input" required>
+
+                <label for="message" class="main-label">Mensagem:</label>
+                <textarea id="message" class="main-input -textarea" maxlength="3500" required></textarea>
+
+                <button type="submit" class="form-button main-label">Enviar</button>
+        </form>
+    </section>
+
     <footer class="main-footer">
             <a href="" class="action"><img src="assets/img/twitter 1.png" alt=""></a>
             <a href="" class="action"><img src="assets/img/youtube 1.png" alt=""></a>
             <a href="" class="action"><img src="assets/img/discord 1.png" alt=""></a>
     </footer>
     <script src="js/components/main-carousel.js"></script>
+    <script src="js/components/form.js"></script>
+
 </body>
 </html>
