@@ -203,18 +203,23 @@
 
     <section class="main-section -bottomblack">
         <h2 class="main-title -second">Contatos</h2>
-        <form name="form" class="main-form" method="post">
+        <form name="form" class="main-form" action="https://formsubmit.co/nunes.lucas1357@gmail.com" onsubmit="handleFormSubmission(event);" method="POST">
 
                 <label for="name" class="main-label">Nome:</label>
-                <input type="text" id="name" class="main-input" maxlength="255" required>
+                <input type="text" id="name" name="name" class="main-input" maxlength="255" required>
 
                 <label for="email" class="main-label">E-mail:</label>
-                <input type="email" id="email" class="main-input" required>
+                <input type="email" id="email" name="email" class="main-input" required>
 
                 <label for="message" class="main-label">Mensagem:</label>
-                <textarea id="message" class="main-input -textarea" maxlength="3500" required></textarea>
+                <textarea id="message" name="message" class="main-input -textarea" maxlength="3500" required></textarea>
 
                 <button type="submit" class="form-button main-label">Enviar</button>
+
+                <input type="hidden" name="_subject" value="Novo Contato">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
         </form>
     </section>
 
@@ -223,6 +228,11 @@
             <a href="" class="action"><img src="assets/img/youtube 1.png" alt=""></a>
             <a href="" class="action"><img src="assets/img/discord 1.png" alt=""></a>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/components/main-form.js"></script>
     <script src="js/components/main-carousel.js"></script>
+    
+
 </body>
 </html>
