@@ -4,6 +4,8 @@ function handleFormSubmission(event) {
     const form = event.target;
     const formData = new FormData(form);
 
+    alert('Aguarde enquanto o email está sendo enviado...');
+
     $.ajax({
         url: form.action,
         method: 'POST',
